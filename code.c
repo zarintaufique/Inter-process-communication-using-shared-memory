@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <fcntl.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/sysinfo.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include <semaphore.h>
+#include <sys/shm.h>
